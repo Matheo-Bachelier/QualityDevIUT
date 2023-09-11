@@ -101,7 +101,17 @@ public class CD : Media
 
 public class Library
 {
-    private List<Media> Collection;
+    public List<Media> Collection { get; set; }
+
+    public Library()
+    {
+        Collection = new List<Media>();
+    }
+
+    public Library(List<Media> collection)
+    {
+        Collection = collection;
+    }
 
     public static Library operator +(Library library, Media media)
     {
@@ -122,11 +132,22 @@ public class Library
     {
         if (!library.Collection.Contains(media))
         {
-
+            throw new Exception("Media not found in the library.");
         }
         else
         {
-            library.Collection.Add(media);
+            if (library.Collection
+                .FirstOrDefault(m => m.Equals(media))
+                .ExemplairesDisponibles < media.ExemplairesDisponibles)
+            {
+                throw new Exception("Error in the amount of copies to remove");
+            }
+            else
+            {
+                library.Collection
+                .FirstOrDefault(m => m.Equals(media))
+                .ExemplairesDisponibles -= media.ExemplairesDisponibles;
+            }
         }
         return library;
     }

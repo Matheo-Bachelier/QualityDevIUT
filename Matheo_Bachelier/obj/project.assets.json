@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\TP_Gestion_de_Librairie\\TP_Gestion_de_Librairie.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\Matheo_Bachelier\\TP_Gestion_de_Librairie.csproj",
       "projectName": "TP_Gestion_de_Librairie",
-      "projectPath": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\TP_Gestion_de_Librairie\\TP_Gestion_de_Librairie.csproj",
+      "projectPath": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\Matheo_Bachelier\\TP_Gestion_de_Librairie.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\TP_Gestion_de_Librairie\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\source\\repos\\Matheo-Bachelier\\QualityDevIUT\\Matheo_Bachelier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
